@@ -1,0 +1,269 @@
+/* Import Global File */
+
+@import url(../css/partials/_global.css);
+
+
+/* Import Variables File */
+
+@import url(../css/partials/variables.css);
+
+
+/* Start Navigation */
+
+.header_area .main-menu .navbar .navbar-brand {
+  padding: 0 2rem 0 4rem;
+}
+
+.header_area .main-menu .navbar {
+  padding: 1rem 20rem;
+  position: static;
+}
+
+.header_area .main-menu .navbar-nav .nav-link {
+  font: normal 500 1.2rem/2px var(--league-spartan);
+  text-transform: uppercase;
+  padding: 1.7rem;
+  color: var(--title-color);
+}
+
+.header_area .main-menu .navbar-nav .nav-link.active {
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.header_area .main-menu .navbar-nav .nav-link:hover {
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* End Navigation */
+
+
+/* Start Banner Area */
+
+.main-site .banner-site {
+  background: url(../img/banner/home-banner.png) no-repeat 80% 30%;
+}
+
+.main-site .banner-site .title-site h3 {
+  padding-top: 35%;
+  padding-left: 30%;
+  font-weight: 500;
+}
+
+.main-site .banner-site .title-site h3::after {
+  content: "";
+  height: 2px;
+  width: 15vw;
+  background: black;
+  display: inline-block;
+  margin-left: 5%;
+  transform: translateY(-6px);
+}
+
+.main-site .banner-site .title-site h1 {
+  font-size: 4.5rem;
+  padding-left: 30%;
+}
+
+.main-site .banner-site .title-site h4 {
+  font-size: 1.5rem;
+  padding-left: 30%;
+}
+
+.main-site .banner-site .banner-img img {
+  margin-left: 90px;
+  padding: 7rem 0rem;
+  width: 45rem;
+}
+
+.main-site .banner-site .title-site .site-buttons {
+  padding-left: 30%;
+}
+
+/* End Banner Area */
+
+/* Start About Area */
+
+.main-site .about-area {
+  padding: 8rem 5rem;
+}
+
+.main-site .about-area .about-title h2 span {
+  display: block;
+  font: normal 49px/60px var(--league-spartan);
+  letter-spacing: 21px;
+}
+
+.main-site .about-area .about-title .paragraph p {
+  padding: .4rem 0;
+}
+
+/* End About Area */
+
+/* Start Service Area*/
+
+.main-site .service-area {
+  padding: 7rem 2rem;
+}
+
+.main-site .service-area .services-title {
+  padding: 0 14rem;
+}
+
+.main-site .service-area .services-title h1 {
+  font-size: 35px;
+}
+
+.main-site .service-area .services {
+  background: rgba(248, 252, 253, 0.973);
+  padding: 2rem 0;
+  width: 16rem;
+  margin: 5rem .5rem;
+  transition: box-shadow .7s ease;
+}
+
+.main-site .service-area .services:hover {
+  box-shadow: var(--box-shadow);
+}
+
+/* End Service Area */
+
+/* Start Project Area */
+
+.main-site .project-area {
+  padding: 4rem 0;
+}
+
+.main-site .project-area .button-group button {
+  background: transparent;
+  border: none;
+  font: normal 500 16px/130px var(--league-spartan);
+  text-transform: uppercase;
+}
+
+.main-site .project-area .button-group button+button {
+  padding-left: 3rem;
+}
+
+.main-site .project-area .grid .our-project .title h4 {
+  font: normal 700 25px/12px var(--league-spartan);
+}
+
+.main-site .project-area .grid .our-project a:hover img {
+  filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+}
+
+/* End Project Area */
+
+/* Start Client Area */
+
+.main-site .about-area .client-title {
+  padding: 1rem 7rem;
+}
+
+.main-site .about-area .client {
+  background: #ffffff10;
+  box-shadow: var(--box-shadow);
+  margin: 3rem 0rem;
+}
+
+.main-site .about-area .client .client-img {
+  padding: 2rem;
+}
+
+.main-site .about-area .client .about-client {
+  padding-top: 2rem;
+}
+
+.main-site .about-area .client .about-client h4 {
+  font: normal 500 21px/20px var(--league-spartan);
+}
+
+.main-site .about-area .client .about-client p {
+  font-size: 14px;
+}
+
+.main-site .about-area .owl-carousel .owl-item {
+  display: flex;
+  justify-content: center;
+  padding: 0 1.5rem;
+}
+
+.main-site .about-area .owl-carousel .owl-dots .owl-dot.active span {
+  background: var(--primary-color);
+  width: 12px;
+  height: 12px;
+}
+
+/* End Client Area */
+
+/*Start Subscribe Area*/
+
+.main-site .subscribe-area .subscribe {
+  background: url(../img/subscribe-bg.png) no-repeat;
+  background-position: center;
+  background-size: 1100px;
+  padding: 10rem 0;
+  margin: 3rem auto;
+}
+
+.main-site .subscribe-area .subscribe .subscribe-title h4 {
+  font: normal 700 30px/30px var(--league-spartan);
+  color: whitesmoke;
+}
+
+.main-site .subscribe-area .subscribe .subscribe-title p {
+  color: whitesmoke;
+  padding: 1rem 2rem;
+}
+
+.main-site .subscribe-area .subscribe form .input-textbox input {
+  width: 400px;
+  padding: 1.5rem 1rem;
+  border: 1px solid whitesmoke;
+  background: transparent;
+  color: white;
+  font: normal 500 17px/20px var(--league-spartan);
+}
+
+.main-site .subscribe-area .subscribe form .input-textbox input::placeholder {
+  color: whitesmoke;
+}
+
+.main-site .subscribe-area .subscribe form .btn-submit button {
+  font: normal 200 15px/20px var(--league-spartan);
+  background-color: whitesmoke;
+  color: #000;
+  margin-top: .5rem;
+  padding: 1rem 2rem;
+}
+
+/*End Subscribe Area*/
+
+/*Start Footer Area*/
+
+footer.footer-area {
+  padding: 5rem 0;
+  background: url(../img/footer-bg.png) no-repeat;
+}
+
+footer.footer-area .social h5{
+  font: normal 500 23px/30px var(--league-spartan);
+}
+
+footer.footer-area .social a i {
+  font-size: 22px;
+  padding: 2rem;
+  color: var(--border-color);
+}
+
+footer.footer-area .social a:hover i {
+  color: var(--primary-color);
+}
+
+/*End Footer Area*/
